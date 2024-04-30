@@ -107,7 +107,7 @@ function SignUpStudent() {
 
         const requestData = JSON.stringify(signUpData);
 
-        axios.post(`http://localhost:5000/user/signup`, requestData, {
+        axios.post(`https://educare-a3qa.onrender.com/user/signup`, requestData, {
             headers: {
                 "Content-Type": "application/json"
             }

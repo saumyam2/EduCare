@@ -32,7 +32,7 @@ function LoginTeacher() {
     
         try {
           // Send login request to server
-          const response = await axios.post('http://localhost:5000/teacher/login', {
+          const response = await axios.post('https://educare-a3qa.onrender.com/teacher/login', {
             email,
             password,
           });
@@ -65,7 +65,7 @@ function LoginTeacher() {
 
     //     const requestData = JSON.stringify(signUpData);
 
-    //     axios.post(`http://localhost:5000/teacher/login`, requestData, {
+    //     axios.post(`https://educare-a3qa.onrender.com/teacher/login`, requestData, {
     //         headers: {
     //             "Content-Type": "application/json"
     //         }

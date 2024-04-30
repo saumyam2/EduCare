@@ -26,7 +26,7 @@ function LoginStudent() {
     
         try {
           // Send login request to server
-          const response = await axios.post('http://localhost:5000/user/login', {
+          const response = await axios.post('https://educare-a3qa.onrender.com/user/login', {
             email,
             password,
           });
@@ -64,7 +64,7 @@ function LoginStudent() {
 
     //     const requestData = JSON.stringify(loginData);
 
-    //     axios.post(`http://localhost:5000/user/login`, requestData, {
+    //     axios.post(`https://educare-a3qa.onrender.com/user/login`, requestData, {
     //         headers: {
     //             "Content-Type": "application/json"
     //         }

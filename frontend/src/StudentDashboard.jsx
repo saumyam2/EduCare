@@ -18,7 +18,7 @@ function StudentDashboard() {
         console.log("emailll:" ,email);
           if (email) {
               // Fetch profile data from the server using the email
-              axios.get(`http://localhost:5000/user/myProfile/${email}`)
+              axios.get(`https://educare-a3qa.onrender.com/user/myProfile/${email}`)
                   .then(response => {
                       // Update state with fetched profile data
                       setProfileData(response.data);
