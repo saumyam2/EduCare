@@ -1,4 +1,4 @@
-Working link to the website: (https://edu-care-q5c6.vercel.app/)
+Working link to the website: https://edu-care-q5c6.vercel.app/
 
 ![Screenshot (368)](https://github.com/Veer-Parikh/git_init_devopia/assets/143692465/aa1a8974-1872-488f-b5af-8831d061e840)
 ![Screenshot (370)](https://github.com/Veer-Parikh/git_init_devopia/assets/143692465/0049f7d3-5bd9-4006-97e3-7179284f3524)
